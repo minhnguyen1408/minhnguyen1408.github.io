@@ -299,7 +299,7 @@ img {
 }
 
 .skills__icon {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
