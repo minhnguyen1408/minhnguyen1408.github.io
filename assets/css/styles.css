@@ -272,6 +272,11 @@ img {
   border-radius: .5rem;
 }
 
+.about__img script {
+  width: 200px;
+  border-radius: .5rem;
+}
+
 /* ===== SKILLS =====*/
 .skills__container {
   row-gap: 2rem;
