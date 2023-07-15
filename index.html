@@ -73,7 +73,18 @@
                         <img src="assets/img/about.jpg" alt="">
                     </div> -->
 
-                    <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_zSGy1w.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player> 
+                    <!-- <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_zSGy1w.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>  -->
+
+                    <div id="lottie"></div>
+                    <!-- Bodymoving -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+                    <script>
+                        bodymovin.loadAnimation({
+                            container: document.getElementById("lottie"),
+                            path: 'assets/animation/animation1.json'
+                        })
+                    </script>
+
                     <div>
                         <h2 class="about__subtitle">I'am Minh</h2>
                         <p class="about__text" style="font-size: 1.25em">A passionate <b>back-end</b> developer. I have honed my skills in designing, building, and maintaining <b>robust</b> and <b>efficient</b> server-side applications. My desire is to create <b>fast</b> and <b>scalable</b> solutions, which can have the meaningful impacts.</p>           
@@ -187,16 +198,15 @@
                         <img src="assets/img/work3.jpg" alt="" class="skills__img">
                     </div> -->
 
-                    <!-- <div id="lottie"></div> -->
+                    <div id="lottie"></div>
                     <!-- Bodymoving -->
-                    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script> -->
-                    <!-- <script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+                    <script>
                         bodymovin.loadAnimation({
                             container: document.getElementById("lottie"),
                             path: 'assets/animation/animation2.json'
                         })
-                    </script> -->
-                    <lottie-player src=“https://lottie.host/a2d37d4e-fa1b-4083-96dc-699c3312d78d/wl035AwFCp.json” background=“#fff” speed=“1” style=“width: 300px; height: 300px” loop autoplay direction=“1” mode=“normal”></lottie-player>
+                    </script>
 
                 </div>
             </section>
