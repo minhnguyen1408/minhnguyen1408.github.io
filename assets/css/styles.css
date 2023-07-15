@@ -274,7 +274,7 @@ img {
 }
 
 .about__img script {
-  width: 200px;
+  width: 75%;
   border-radius: .5rem;
 }
 
@@ -532,6 +532,7 @@ img {
     text-align: initial;
   }
   .work__container {
+    align-items: center;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
