@@ -183,9 +183,19 @@
 
                     </div>
                     
-                    <div>              
+                    <!-- <div>              
                         <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
+                    </div> -->
+                    
+                    <div id="lottie"></div>
+                    <!-- Bodymoving -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+                    <script>
+                        bodymovin.loadAnimation({
+                            container: document.getElementById("lottie"),
+                            path: 'assets/animation/animation2.json'
+                        })
+                    </script>
                 </div>
             </section>
 
@@ -203,18 +213,6 @@
                     </a>
                     <a href="" class="work__img">
                         <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
                     </a>
                 </div>
             </section>
@@ -236,12 +234,12 @@
 
         <!--===== FOOTER =====-->
         <footer class="footer">
-            <p class="footer__title">Minh</p>
+            <!-- <p class="footer__title">Minh</p>
             <div class="footer__social">
                 <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
                 <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-            </div>
+            </div> -->
             <p class="footer__copy">&#169; Made by Minh Nguyen</p>
             <!-- <p class="footer__copy">Made by Minh Nguyen</p> -->
 
@@ -250,6 +248,7 @@
         <!-- Animation -->
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
+        
 
         <!-- SCROLL REVEAL -->
         <script src="https://unpkg.com/scrollreveal"></script>
