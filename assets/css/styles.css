@@ -266,7 +266,11 @@ img {
 
 .about__img {
   justify-self: center;
+<<<<<<< HEAD
   padding: 4rem;
+=======
+  padding: 3rem;
+>>>>>>> 3a2f7655e993d25dde770dac06966e62f21914e6
 }
 
 .about__img img {
