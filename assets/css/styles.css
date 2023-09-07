@@ -95,7 +95,7 @@ img {
 
 .section {
   padding-top: 0rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 /*===== LAYOUT =====*/
@@ -486,7 +486,7 @@ img {
   }
   .section {
     padding-top: 0rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
   }
   .section-title {
     margin-bottom: var(--mb-6);
