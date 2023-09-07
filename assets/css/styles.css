@@ -235,7 +235,8 @@ img {
 }
 
 .home__blob-img {
-  width: 360px;
+  align-items: center;
+  width: 310px;
 }
 
 /*BUTTONS*/
